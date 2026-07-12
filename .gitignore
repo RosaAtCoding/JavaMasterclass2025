@@ -9,6 +9,7 @@
 .idea/**/shelf
 .idea/caches/
 .idea/libraries/
+.idea/inspectionProfiles/
 
 # Archivos de proyectos antiguos de IntelliJ
 *.iws
