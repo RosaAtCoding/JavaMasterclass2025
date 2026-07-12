@@ -1,0 +1,91 @@
+# =========================================================================
+# CONFIGURACIÓN DE INTELLIJ IDEA (Multi-entorno / Compartido)
+# =========================================================================
+# Ignorar configuraciones estrictamente locales del usuario y del sistema
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/caches/
+.idea/libraries/
+
+# Archivos de proyectos antiguos de IntelliJ
+*.iws
+*.iml
+
+# Directorios de salida por defecto de IntelliJ
+out/
+extracted/
+
+# NOTA: NO ignoramos completamente la carpeta '.idea/' para que al clonar el repo,
+# IntelliJ reconozca automáticamente la estructura de los proyectos gracias a 
+# archivos compartidos como 'misc.xml' y 'modules.xml'.
+
+# =========================================================================
+# COMPILACIÓN GENERAL DE JAVA
+# =========================================================================
+# Archivos binarios compilados
+*.class
+
+# Archivos de registro (Logs)
+*.log
+
+# Archivos empaquetados resultantes
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+
+# =========================================================================
+# HERRAMIENTA DE CONSTRUCCIÓN: MAVEN
+# =========================================================================
+# Directorio de compilación estándar de Maven
+target/
+
+# Archivos temporales de ejecución y resolución de dependencias
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.warn
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/.search
+
+# NOTA: Si utilizas el Maven Wrapper (.mvn/wrapper/maven-wrapper.properties y mvnw), 
+# se recomienda permitir su subida para que otros desarrolladores no necesiten 
+# tener Maven instalado globalmente. Este gitignore NO lo ignora.
+
+# =========================================================================
+# HERRAMIENTA DE CONSTRUCCIÓN: GRADLE
+# =========================================================================
+# Directorio de caché y entorno local de Gradle
+.gradle/
+build/
+
+# Archivos de configuración local de Gradle (p. ej. contraseñas o rutas locales)
+gradle.properties
+local.properties
+
+# Archivos de caché de componentes específicos y logs de Gradle
+.navigation/
+.settings/
+.build-status
+
+# NOTA: Al igual que con Maven, no ignoramos el Gradle Wrapper ('gradlew', 'gradlew.bat' 
+# y la carpeta 'gradle/wrapper/') para garantizar la portabilidad entre plataformas.
+
+# =========================================================================
+# ARCHIVOS DEL SISTEMA OPERATIVO (Evita conflictos Windows / Mac / Linux)
+# =========================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
