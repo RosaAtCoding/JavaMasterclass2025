@@ -4,6 +4,11 @@ public class Hello {
 
         System.out.println("Hello, Thor");
 
-        System.out.print("Hello World");
+        boolean isAlien = false;
+
+        if (isAlien == false) {
+            System.out.println("It is not an alien!");
+            System.out.println("And I am ascared of aliens");
+        }
     }
 }
